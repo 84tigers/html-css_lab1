@@ -6,7 +6,6 @@
 }
 
 header {
-    /* display: flex; */
     width: 95%;
     height: 10%;
     position: relative;
@@ -65,14 +64,15 @@ a {
 
 h1 {
     font-size: 36px;
-    /* padding-bottom: 4em; */
     margin-top: 0;
 }
 
 p {
     border: none;
     border-left: 1px solid black;
-    padding: 0 1em;}
+    padding: 0 1em;
+    padding-right: 4em;
+}
 
 .toright {
     width: 30%;
@@ -85,8 +85,6 @@ p {
     width: 320px;
     height: 320px;
     border-radius: 100%;
-    /* position: absolute;
-    bottom: 100%; */
 }
 
 .circle_m {
@@ -115,11 +113,9 @@ p {
     background-color: #000;
     border-radius: 33px;
     width: 100px;
-    /* height: 25px; */
     padding: 0.75em 1em;
     margin: 0;
     text-align: center;
-
     position: fixed;
     bottom: 5%;
     left: 50%;
