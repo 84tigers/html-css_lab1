@@ -1,0 +1,97 @@
+.full {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #f9fafc;
+}
+
+header {
+    /* display: flex; */
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+
+h2, a, h1, p, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    display: block;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translatey(-50%);
+}
+
+a {
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.navbut {
+    color: white;
+    background-color: #000;
+    border-radius: 33px;
+    width: 50px;
+    height: 25px;
+    padding: 0.5em 1em;
+    margin: 0;
+}
+
+.bottom {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4em;
+}
+
+.toleft {
+    width: 60%;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 36px;
+    padding-bottom: 4em;
+}
+
+p {
+    border: none;
+    border-left: 1px solid black;
+    padding: 0 1em;}
+
+.toright {
+    width: 30%;
+    display: inline-block;
+}
+
+.circle_l {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+
+}
+
+.circle_m {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+
+}
+
+.circle_s {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.scroll {
+    display: block;
+}
